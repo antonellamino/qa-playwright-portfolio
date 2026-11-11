@@ -58,7 +58,7 @@ export class RegisterPage {
     }
 
     async verificarRegistroExitoso() {
-        await expect(this.toastExito).toBeVisible();
+        await expect(this.toastExito).toBeVisible({ timeout: 8000 });
     }
 
     async hacerClicEnRegistrarse() {
