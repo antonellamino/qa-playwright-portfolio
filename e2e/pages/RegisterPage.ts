@@ -36,7 +36,7 @@ export class RegisterPage {
         this.toastExito = page.getByText(/registro exitoso/i);
     }
 
-    async navegar() {
+    async navegarRegistro() {
         await this.page.goto('https://talento-lab-test-web.netlify.app/register');
     }
 
